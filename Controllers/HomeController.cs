@@ -25,6 +25,11 @@ namespace GeorgianComputerss.Controllers
 
         public IActionResult Privacy()
         {
+            return View("Some other view");
+        }
+
+        public IActionResult About()
+        {
             return View();
         }
 
